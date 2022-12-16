@@ -1,0 +1,44 @@
+phyton'da kullanılan anahtar kelimeler...
+
+if = while
+else== ya da
+#else if== elif diye de yazılabilir
+pass
+True 
+False
+anahtar kelimeler değişken olamazlar
+
+
+
+
+Python'da kullanılan operatörler
+!=  eşit değil
+*   çarpma
+/   bölme
++   toplama
+-   çıkarma
+=   atama
+**  üssünü alma
+// bölümün tam sayı değerini alma
+%   kalan
+==  eşitlik operatörü
+<   küçüktür
+>   büyüktür
+>=  büyük eşit
+<=  küçük eşit
+import
+and 
+or
+break :durdurmak
+
+True: 1 : not False
+False: 0  : not True
+as
+for
+in
+continue
+def
+return
+None
+global
+
