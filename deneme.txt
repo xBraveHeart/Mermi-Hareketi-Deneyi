@@ -1,9 +1,0 @@
-denemeee<<<<<<< HEAD
-<<<<<<< HEAD
-denemeee
-denemeee
-=======
-denemee
->>>>>>> 3e562d69f7c8251dc3cc4c32da727a6923626e55
-
-kkl
