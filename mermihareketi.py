@@ -13,3 +13,46 @@ pygame.display.set_caption('mermi hareketi')
 FPS = 60 
 fpsClock = pygame.time.Clock()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# FİZİKSEL NİCELİKLERİN AYARLANMASI 
+
+# ZAMAN
+t = 0 
+
+# UZAKLIK 
+s = topPos
