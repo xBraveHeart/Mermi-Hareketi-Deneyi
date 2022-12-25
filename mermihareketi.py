@@ -23,3 +23,9 @@ t = 0
 
 # UZAKLIK 
 s = topPos
+
+# BAŞLANGIÇ HIZI 
+vm = 100
+
+# TOPUN ATILMASI 
+launched = False  
