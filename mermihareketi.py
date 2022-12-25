@@ -8,6 +8,9 @@ from math import *
 EKRAN = pygame.display.set_mode((1152, 648), 0, 32)
 pygame.display.set_caption('mermi hareketi')
 
+arkaplanImg = pygame.image.load('resimler/arkaplan.png')
+yatakImg = pygame.image.load('resimler/yatak.png')
+
 # KARE/SANİYE AYARI
 
 FPS = 60 
