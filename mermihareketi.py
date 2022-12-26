@@ -31,3 +31,7 @@ vm = 100
 
 # TOPUN ATILMASI 
 launched = False  
+
+# HAVAN PARÇALARININ KONUM BİLGİLERİ 
+
+yatakPos = (15,428)
