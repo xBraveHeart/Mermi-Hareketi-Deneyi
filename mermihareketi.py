@@ -10,6 +10,7 @@ pygame.display.set_caption('mermi hareketi')
 
 arkaplanImg = pygame.image.load('resimler/arkaplan.png')
 yatakImg = pygame.image.load('resimler/yatak.png')
+havanImg = pygame.image.load('resimler/havan.png')
 
 # KARE/SANİYE AYARI
 
