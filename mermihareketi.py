@@ -2,6 +2,10 @@ import pygame, sys
 from pygame.locals import *
 from math import *
 
+pygame.init()
+
+arkaplansesi = pygame.mixer.Sound("arkaplansesi.mp3")
+
 
 # OYUN PENCERESİNİN KURULUMU 
 
