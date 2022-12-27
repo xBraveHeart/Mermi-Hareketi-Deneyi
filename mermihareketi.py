@@ -1,10 +1,13 @@
 import pygame, sys
 from pygame.locals import *
 from math import *
+# OYUNA ARKA PLAN MÜZİĞİ EKLEME 
 
 pygame.init()
 
 arkaplansesi = pygame.mixer.Sound("arkaplansesi.mp3")
+
+arkaplansesi.play()
 
 
 # OYUN PENCERESİNİN KURULUMU 
