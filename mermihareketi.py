@@ -51,3 +51,4 @@ while True:
 # HAVAN PARÇALARININ KONUM BİLGİLERİ 
 
 yatakPos = (15,428)
+havanPos = (-5, 400)
