@@ -36,6 +36,14 @@ vm = 100
 # TOPUN ATILMASI 
 launched = False  
 
+#ANA OYUN DÖNGÜSÜ
+
+while True:
+  dt = fpsClock.tick(FPS) # dt = t_SON - t_İLK
+  if launched:
+    t = t + dt/250.0 # GÜNCELLENEN ZAMAN 
+    #BURADA BULUNAN 250.0 TOPUN HAVADA KALMA SÜRESİNİ ETKİLEMİYOR FPS AYARLARI İLE MERMİNİN AĞIR ÇEKİMDE VEYA HIZLI OLARAK GİDECEĞİNE KARAR VERİYORUZ.
+
 # HAVAN PARÇALARININ KONUM BİLGİLERİ 
 
 yatakPos = (15,428)
