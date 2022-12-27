@@ -25,15 +25,19 @@ fpsClock = pygame.time.Clock()
 # FİZİKSEL NİCELİKLERİN AYARLANMASI 
 
 # ZAMAN
+
 t = 0 
 
-# UZAKLIK 
+# UZAKLIK
+
 s = topPos
 
 # BAŞLANGIÇ HIZI 
+
 vm = 100
 
 # TOPUN ATILMASI 
+
 launched = False  
 
 #ANA OYUN DÖNGÜSÜ
