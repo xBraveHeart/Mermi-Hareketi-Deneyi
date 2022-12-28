@@ -25,6 +25,12 @@ topImg = pygame.image.load('resimler/mermi.png')
 FPS = 60 
 fpsClock = pygame.time.Clock()
 
+#RESİM DOSYALARININ DEĞİŞKEN OLARAK TANIMLANMASI 
+
+EKRAN.blit(arkaplanImg, (0,0))
+
+
+
 # FİZİKSEL NİCELİKLERİN AYARLANMASI 
 
 # ZAMAN
@@ -50,6 +56,8 @@ while True:
   if launched:
     t = t + dt/250.0 # GÜNCELLENEN ZAMAN 
     #BURADA BULUNAN 250.0 TOPUN HAVADA KALMA SÜRESİNİ ETKİLEMİYOR FPS AYARLARI İLE MERMİNİN AĞIR ÇEKİMDE VEYA HIZLI OLARAK GİDECEĞİNE KARAR VERİYORUZ.
+    
+    
 
 # HAVAN PARÇALARININ KONUM BİLGİLERİ 
 
@@ -60,3 +68,6 @@ topPos = (22,428)
 # BAŞLANGIÇ HAVAN POZİYONU
 
 havanImg = pygame.transform.rotate(havanImg, -15)
+
+
+
