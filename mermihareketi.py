@@ -56,3 +56,7 @@ while True:
 yatakPos = (15,428)
 havanPos = (-5, 400)
 topPos = (22,428)
+
+# BAŞLANGIÇ HAVAN POZİYONU
+
+havanImg = pygame.transform.rotate(havanImg, -15)
