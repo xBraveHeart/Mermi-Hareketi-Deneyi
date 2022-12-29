@@ -28,6 +28,7 @@ fpsClock = pygame.time.Clock()
 #RESİM DOSYALARININ DEĞİŞKEN OLARAK TANIMLANMASI 
 
 EKRAN.blit(arkaplanImg, (0,0))
+EKRAN.blit(havanMovImg, havanPos  )
 
 
 
