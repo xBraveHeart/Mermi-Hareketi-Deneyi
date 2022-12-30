@@ -29,6 +29,7 @@ fpsClock = pygame.time.Clock()
 
 EKRAN.blit(arkaplanImg, (0,0))
 EKRAN.blit(havanMovImg, havanPos  )
+EKRAN.blit(topImg, topPos)
 
 
 
