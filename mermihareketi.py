@@ -75,3 +75,8 @@ havanImg = pygame.transform.rotate(havanImg, -15)
 ang = 45
 
 
+ #  EKRAN YAZILARININ AYARLANMASI
+
+    font = pygame.font.Font(None, 30)
+
+
