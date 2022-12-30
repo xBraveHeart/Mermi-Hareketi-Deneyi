@@ -70,5 +70,8 @@ topPos = (22,428)
 
 havanImg = pygame.transform.rotate(havanImg, -15)
 
+# BAŞLANGIÇ TOP AÇISI AYARI
+
+ang = 45
 
 
