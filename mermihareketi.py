@@ -77,6 +77,6 @@ ang = 45
 
  #  EKRAN YAZILARININ AYARLANMASI
 
-    font = pygame.font.Font(None, 30)
+font = pygame.font.Font(None, 30)
 
 
