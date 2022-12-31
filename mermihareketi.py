@@ -80,4 +80,6 @@ ang = 45
 
 font = pygame.font.Font(None, 30)
 
+text_ang = font.render("açı = %d" % ang, 1, (10, 10, 10))
 
+text_ang_pos = (0, 460)
