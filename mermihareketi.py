@@ -83,3 +83,8 @@ font = pygame.font.Font(None, 30)
 text_ang = font.render("açı = %d" % ang, 1, (10, 10, 10))
 
 text_ang_pos = (0, 460)
+
+
+text_vm = font.render("hız = %.1f m/s" % vm, 1, (10, 10, 10))
+
+text_vm_pos = (0, 480)
