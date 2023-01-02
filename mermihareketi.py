@@ -88,3 +88,5 @@ text_ang_pos = (0, 460)
 text_vm = font.render("hız = %.1f m/s" % vm, 1, (10, 10, 10))
 
 text_vm_pos = (0, 480)
+
+text_vx = font.render("yatay hız = %.1f m/s" % v[0], 1, (10, 10, 10))
