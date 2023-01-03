@@ -99,3 +99,8 @@ text_vy = font.render("dikey hız = %.1f m/s" % v[1], 1, (10, 10, 10))
 
 text_vy_pos = (0, 520)
 
+
+text_x = font.render("yatay konum = %.1f m" % s[0], 1, (10, 10, 10))
+
+text_x_pos = (0, 540)
+
