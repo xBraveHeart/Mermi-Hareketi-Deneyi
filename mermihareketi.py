@@ -114,3 +114,5 @@ text_x_pos = (0, 540)
 # YENİ SAHNE KURULUMU 
 
 EKRAN.blit(arkaplanImg, (0,0))
+
+EKRAN.blit(havanMovImg, havanPos  )
