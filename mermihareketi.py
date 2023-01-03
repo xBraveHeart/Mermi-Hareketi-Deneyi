@@ -104,3 +104,13 @@ text_x = font.render("yatay konum = %.1f m" % s[0], 1, (10, 10, 10))
 
 text_x_pos = (0, 540)
 
+
+
+
+
+
+
+
+# YENİ SAHNE KURULUMU 
+
+EKRAN.blit(arkaplanImg, (0,0))
