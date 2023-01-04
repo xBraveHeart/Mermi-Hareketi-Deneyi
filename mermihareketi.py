@@ -116,3 +116,5 @@ text_x_pos = (0, 540)
 EKRAN.blit(arkaplanImg, (0,0))
 
 EKRAN.blit(havanMovImg, havanPos  )
+
+EKRAN.blit(topImg, s)
