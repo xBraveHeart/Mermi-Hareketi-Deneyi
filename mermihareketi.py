@@ -124,4 +124,4 @@ EKRAN.blit(havanMovImg, havanPos  )
 
 EKRAN.blit(topImg, s)
 
- EKRAN.blit(yatakImg, yatakPos)
+EKRAN.blit(yatakImg, yatakPos)
