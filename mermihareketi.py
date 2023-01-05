@@ -123,3 +123,5 @@ EKRAN.blit(arkaplanImg, (0,0))
 EKRAN.blit(havanMovImg, havanPos  )
 
 EKRAN.blit(topImg, s)
+
+ EKRAN.blit(yatakImg, yatakPos)
