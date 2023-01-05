@@ -110,6 +110,10 @@ text_y = font.render("dikey konum = %.1f m" % s[1], 1, (10, 10, 10))
 text_y_pos = (0, 560)
 
 
+text_t = font.render("zaman = %.1f s" % t, 1, (10, 10, 10))
+
+text_t_pos = (0, 580)
+
 
 
 
