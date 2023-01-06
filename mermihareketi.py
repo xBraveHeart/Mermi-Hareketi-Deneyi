@@ -33,7 +33,7 @@ EKRAN.blit(havanMovImg, havanPos  )
 
 EKRAN.blit(topImg, topPos)
 
-
+EKRAN.blit(yatakImg, yatakPos)
 
 
 # FİZİKSEL NİCELİKLERİN AYARLANMASI 
