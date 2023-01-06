@@ -9,6 +9,8 @@ arkaplansesi = pygame.mixer.Sound("arkaplansesi.mp3")
 
 arkaplansesi.play()
 
+#top resminin uç kısımdan dönmesi 
+def rot_center(image, angle):
 
 # OYUN PENCERESİNİN KURULUMU 
 
