@@ -134,3 +134,5 @@ EKRAN.blit(havanMovImg, havanPos  )
 EKRAN.blit(topImg, s)
 
 EKRAN.blit(yatakImg, yatakPos)
+
+EKRAN.blit(text_t, text_t_pos)
