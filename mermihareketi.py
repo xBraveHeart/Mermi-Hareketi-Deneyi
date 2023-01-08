@@ -11,6 +11,8 @@ arkaplansesi.play()
 
 #top resminin uç kısımdan dönmesi 
 def rot_center(image, angle):
+    orig_rect = image.get_rect()
+
 
 # OYUN PENCERESİNİN KURULUMU 
 
