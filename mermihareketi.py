@@ -12,6 +12,7 @@ arkaplansesi.play()
 #top resminin uç kısımdan dönmesi 
 def rot_center(image, angle):
     orig_rect = image.get_rect()
+    rot_image = pygame.transform.rotate(image, angle)
 
 
 # OYUN PENCERESİNİN KURULUMU 
