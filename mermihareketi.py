@@ -142,3 +142,7 @@ EKRAN.blit(text_t, text_t_pos)
 EKRAN.blit(text_vx, text_vx_pos)
 
 EKRAN.blit(text_vy, text_vy_pos)
+
+EKRAN.blit(text_vm, text_vm_pos)
+
+EKRAN.blit(text_x, text_x_pos)
