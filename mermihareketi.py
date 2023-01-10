@@ -13,6 +13,7 @@ arkaplansesi.play()
 def rot_center(image, angle):
     orig_rect = image.get_rect()
     rot_image = pygame.transform.rotate(image, angle)
+    rot_rect = orig_rect.copy()
 
 
 # OYUN PENCERESİNİN KURULUMU 
