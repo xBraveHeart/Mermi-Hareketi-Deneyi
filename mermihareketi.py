@@ -160,5 +160,7 @@ for event in pygame.event.get():
         sys.exit()
     elif event.type == KEYDOWN:    
         # BOŞLUK İLE BAŞLATMA 
-        if event.key == K_SPACE:        
+        if event.key == K_SPACE:
+            if event.type == QUIT:
+                pygame.quit()
         
