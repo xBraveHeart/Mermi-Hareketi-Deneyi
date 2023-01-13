@@ -71,6 +71,8 @@ while True:
     #BURADA BULUNAN 250.0 TOPUN HAVADA KALMA SÜRESİNİ ETKİLEMİYOR FPS AYARLARI İLE MERMİNİN AĞIR ÇEKİMDE VEYA HIZLI OLARAK GİDECEĞİNE KARAR VERİYORUZ.
     
     
+    vm = sqrt(v[0]*v[0] + v[1]*v[1])
+    s0 = topPos # BAŞLANGIÇ POZİYONU
    
      s = (s0[0] + v0[0]*t + a[0]*t*t/2, s0[1] + v0[1]*t + a[1]*t*t/2) #FİZİK FORMULÜ
      if s[1] >= 436: # YERE VURMA
