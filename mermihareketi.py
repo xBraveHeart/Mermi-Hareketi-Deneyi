@@ -167,6 +167,6 @@ for event in pygame.event.get():
     elif event.type == KEYDOWN:    
         # BOŞLUK İLE BAŞLATMA 
         if event.key == K_SPACE:
-            if event.type == QUIT:
-                pygame.quit()
+            #topun atıldığında çıkarttığı patlama sesi 
+            havansesi = pygame.mixer.Sound("patlama.mp3")
         
