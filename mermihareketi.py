@@ -171,4 +171,8 @@ for event in pygame.event.get():
         if event.key == K_SPACE:
             #topun atıldığında çıkarttığı patlama sesi 
             havansesi = pygame.mixer.Sound("patlama.mp3")
+            havansesi.play()
+            #Bu sesi bir Türk filmi olan Fetih 1453'ün ses efekt bölümünden aldık.
+
+            
         
