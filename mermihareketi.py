@@ -37,6 +37,9 @@ yatakPos = (15,428)
 havanPos = (-5, 400)
 topPos = (22,428)
 
+# BAŞLANGIÇ HAVAN POZİYONU
+
+havanImg = pygame.transform.rotate(havanImg, -15)
 # KARE/SANİYE AYARI
 
 FPS = 60 
@@ -88,10 +91,7 @@ while True:
      s = (s0[0] + v0[0]*t + a[0]*t*t/2, s0[1] + v0[1]*t + a[1]*t*t/2) #FİZİK FORMULÜ
      if s[1] >= 436: # YERE VURMA
     
-
-# BAŞLANGIÇ HAVAN POZİYONU
-
-havanImg = pygame.transform.rotate(havanImg, -15)
+    
 
 # BAŞLANGIÇ TOP AÇISI AYARI
 
