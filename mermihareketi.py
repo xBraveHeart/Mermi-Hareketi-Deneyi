@@ -72,6 +72,9 @@ t = 0
 
 s = topPos
 
+# HIZ
+v = (0, 0)
+
 # BAŞLANGIÇ HIZI 
 
 vm = 100
