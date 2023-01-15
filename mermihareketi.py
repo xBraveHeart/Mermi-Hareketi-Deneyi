@@ -21,6 +21,11 @@ def rot_center(image, angle):
 
 pygame.init()
 
+# KARE/SANİYE AYARI
+
+FPS = 60 
+fpsClock = pygame.time.Clock()
+
 # OYUN PENCERESİNİN KURULUMU 
 
 EKRAN = pygame.display.set_mode((1152, 648), 0, 32)
@@ -40,10 +45,7 @@ topPos = (22,428)
 # BAŞLANGIÇ HAVAN POZİYONU
 
 havanImg = pygame.transform.rotate(havanImg, -15)
-# KARE/SANİYE AYARI
 
-FPS = 60 
-fpsClock = pygame.time.Clock()
 
 # BAŞLANGIÇ TOP AÇISI AYARI
 
