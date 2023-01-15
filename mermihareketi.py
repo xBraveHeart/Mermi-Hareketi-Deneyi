@@ -178,6 +178,7 @@ for event in pygame.event.get():
             
             topPos = (22,428)
             s = topPos
-
+            t = 0
+            launched = True
             
         
