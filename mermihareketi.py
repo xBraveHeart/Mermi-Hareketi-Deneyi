@@ -45,6 +45,10 @@ havanImg = pygame.transform.rotate(havanImg, -15)
 FPS = 60 
 fpsClock = pygame.time.Clock()
 
+# BAŞLANGIÇ TOP AÇISI AYARI
+
+ang = 45
+
 #RESİM DOSYALARININ DEĞİŞKEN OLARAK TANIMLANMASI 
 
 EKRAN.blit(arkaplanImg, (0,0))
@@ -91,12 +95,6 @@ while True:
      s = (s0[0] + v0[0]*t + a[0]*t*t/2, s0[1] + v0[1]*t + a[1]*t*t/2) #FİZİK FORMULÜ
      if s[1] >= 436: # YERE VURMA
     
-    
-
-# BAŞLANGIÇ TOP AÇISI AYARI
-
-ang = 45
-
 
  #  EKRAN YAZILARININ AYARLANMASI
 
