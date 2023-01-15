@@ -175,6 +175,9 @@ for event in pygame.event.get():
             havansesi = pygame.mixer.Sound("patlama.mp3")
             havansesi.play()
             #Bu sesi bir Türk filmi olan Fetih 1453'ün ses efekt bölümünden aldık.
+            
+            topPos = (22,428)
+            s = topPos
 
             
         
