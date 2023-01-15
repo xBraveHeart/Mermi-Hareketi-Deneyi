@@ -1,6 +1,7 @@
 import pygame, sys
 from pygame.locals import *
 from math import *
+
 # OYUNA ARKA PLAN MÜZİĞİ EKLEME 
 
 pygame.init()
@@ -16,7 +17,8 @@ def rot_center(image, angle):
     rot_rect = orig_rect.copy()
     rot_rect.center = rot_image.get_rect().center
     rot_image = rot_image.subsurface(rot_rect).copy()
-
+    return rot_image
+pygame.init()
 
 # OYUN PENCERESİNİN KURULUMU 
 
