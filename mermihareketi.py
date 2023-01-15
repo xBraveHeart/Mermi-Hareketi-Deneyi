@@ -51,6 +51,8 @@ havanImg = pygame.transform.rotate(havanImg, -15)
 
 ang = 45
 
+havanMovImg = rot_center(havanImg, ang)
+
 #RESİM DOSYALARININ DEĞİŞKEN OLARAK TANIMLANMASI 
 
 EKRAN.blit(arkaplanImg, (0,0))
