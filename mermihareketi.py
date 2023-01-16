@@ -220,3 +220,7 @@ for event in pygame.event.get():
 
     if keystate[K_DOWN]:
         vm-=2
+
+      # asıl sahneyi göster 
+
+    pygame.display.flip()                  
