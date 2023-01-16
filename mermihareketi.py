@@ -206,3 +206,7 @@ for event in pygame.event.get():
 
     if keystate[K_RIGHT]: 
         ang-=2
+
+        if ang < 0:
+            ang = 0
+        havanMovImg = rot_center(havanImg, ang)
