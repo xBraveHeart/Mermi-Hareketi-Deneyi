@@ -193,3 +193,8 @@ for event in pygame.event.get():
             v0 = (vm*cos(radians(ang)), -vm*sin(radians(ang)))            
         
     keystate = pygame.key.get_pressed()
+    
+     # saat yönünün tersine çevirme
+
+    if keystate[K_LEFT]: 
+        ang+=2
