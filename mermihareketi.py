@@ -216,3 +216,7 @@ for event in pygame.event.get():
     if keystate[K_UP]: 
 
         vm+=2
+         # ilk hızı düşür
+
+    if keystate[K_DOWN]:
+        vm-=2
