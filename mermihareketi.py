@@ -210,3 +210,9 @@ for event in pygame.event.get():
         if ang < 0:
             ang = 0
         havanMovImg = rot_center(havanImg, ang)
+        
+        # ilk hızı artır
+
+    if keystate[K_UP]: 
+
+        vm+=2
