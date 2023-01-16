@@ -189,4 +189,6 @@ for event in pygame.event.get():
             t = 0
             launched = True
             
+            # başlangıç hızını ayarlama 
+            v0 = (vm*cos(radians(ang)), -vm*sin(radians(ang)))            
         
