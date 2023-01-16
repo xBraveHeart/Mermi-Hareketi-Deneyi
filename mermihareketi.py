@@ -202,3 +202,7 @@ for event in pygame.event.get():
             ang = 90
         havanMovImg = rot_center(havanImg, ang)
         
+        # saat yönüne çevirme 
+
+    if keystate[K_RIGHT]: 
+        ang-=2
