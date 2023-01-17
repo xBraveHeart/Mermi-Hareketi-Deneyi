@@ -75,4 +75,5 @@ def main_menu():
                             text_input="Başlat", font=get_font(40), base_color="#d7fcd4", hovering_color="White")       
         OPTIONS_BUTTON = Button(image=pygame.image.load("resimler/Options_Rect.png"), pos=(576, 400), 
                             text_input="Emeği Geçenler", font=get_font(40), base_color="#d7fcd4", hovering_color="White")        
-
+        QUIT_BUTTON = Button(image=pygame.image.load("resimler/Quit_Rect.png"), pos=(576, 550), 
+                            text_input="Çıkış", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
