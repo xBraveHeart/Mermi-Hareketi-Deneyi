@@ -61,9 +61,7 @@ def options():
         
         
         
-        
-        
-        
+               
 def main_menu():
     while True:
         SCREEN.blit(BG, (0, 0))
@@ -71,4 +69,8 @@ def main_menu():
         MENU_MOUSE_POS = pygame.mouse.get_pos()        
               
         MENU_TEXT = get_font(50).render("Mermi Hareketi Deneyi", True, "#035b52")
-        MENU_RECT = MENU_TEXT.get_rect(center=(576, 100))
+        MENU_RECT = MENU_TEXT.get_rect(center=(576, 100))        
+        
+        PLAY_BUTTON = Button(image=pygame.image.load("resimler/Play_Rect.png"), pos=(576, 250), 
+                            text_input="Başlat", font=get_font(40), base_color="#d7fcd4", hovering_color="White")       
+
