@@ -33,7 +33,9 @@ def options():
 
         
         
-        
+        AGA3_TEXT=get_font(20).render("EMIR TUTLU-032280034-github.com/emirtutlu ", True, "White")
+        AGA3_RECT=AGA3_TEXT.get_rect(center=(576, 300))
+        SCREEN.blit(AGA3_TEXT,AGA3_RECT)     
         
         
         
