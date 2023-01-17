@@ -14,5 +14,6 @@ class Button():
 	
 	def update(self, screen):
 		if self.image is not None:
+			screen.blit(self.image, self.rect)
 		
 		
