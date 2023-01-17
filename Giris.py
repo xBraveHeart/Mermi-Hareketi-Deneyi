@@ -11,7 +11,9 @@ BG = pygame.image.load("resimler/Background.jpg")
 def get_font(size): 
     return pygame.font.Font("resimler/font.ttf", size)
 
-
+def play():
+    import mermihareketi
+    mermihareketi.start()
 
 
 
