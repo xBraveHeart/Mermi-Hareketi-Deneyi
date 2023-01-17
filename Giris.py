@@ -64,4 +64,7 @@ def options():
         
 def main_menu():
     while True:
+        SCREEN.blit(BG, (0, 0))
+
+        MENU_MOUSE_POS = pygame.mouse.get_pos()        
               
