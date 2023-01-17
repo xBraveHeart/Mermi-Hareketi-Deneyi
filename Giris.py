@@ -30,3 +30,38 @@ def options():
         SCREEN.blit(AGA1_TEXT,AGA1_RECT)
 
 
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+def main_menu():
+    while True:
+              
