@@ -23,8 +23,7 @@ def options():
 
         OPTIONS_TEXT = get_font(40).render("Emegi Geçenler ", True, "White")
         OPTIONS_RECT = OPTIONS_TEXT.get_rect(center=(576, 100))
-
-
+        SCREEN.blit(OPTIONS_TEXT, OPTIONS_RECT)
 
         AGA1_TEXT=get_font(20).render("EREN BARIN-032280032-github.com/erenbarin ", True, "White")
         AGA1_RECT=AGA1_TEXT.get_rect(center=(576, 200))
