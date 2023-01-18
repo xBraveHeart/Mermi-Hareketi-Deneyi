@@ -50,6 +50,8 @@ def options():
                             text_input="Geri", font=get_font(40), base_color="White", hovering_color="Yellow")
        
         
+        OPTIONS_BACK.changeColor(OPTIONS_MOUSE_POS)
+        OPTIONS_BACK.update(SCREEN)
         
         
         
