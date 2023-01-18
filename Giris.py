@@ -57,8 +57,11 @@ def options():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
-        
-        
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                if OPTIONS_BACK.checkForInput(OPTIONS_MOUSE_POS):
+                    main_menu()
+                
+        pygame.display.update()
         
         
         
