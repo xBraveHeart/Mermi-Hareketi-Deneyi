@@ -46,10 +46,7 @@ def options():
         
         
         
-        
-        
-        
-        
+                     
         
         
         OPTIONS_BACK = Button(image=None, pos=(576, 460), 
@@ -93,16 +90,14 @@ def main_menu():
             button.update(SCREEN)
 
             
+                      
             
             
-            
-            
-            
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
-                if event.type == pygame.MOUSEBUTTONDOWN:
+            if event.type == pygame.MOUSEBUTTONDOWN:
                 if PLAY_BUTTON.checkForInput(MENU_MOUSE_POS):
                     play()
                 if OPTIONS_BUTTON.checkForInput(MENU_MOUSE_POS):
@@ -110,6 +105,6 @@ def main_menu():
                 if QUIT_BUTTON.checkForInput(MENU_MOUSE_POS):
                     pygame.quit()
                     sys.exit()
-           pygame.display.update()
+        pygame.display.update()
 
 main_menu()
