@@ -83,3 +83,12 @@ def main_menu():
                             text_input="Çıkış", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
         
                 SCREEN.blit(MENU_TEXT, MENU_RECT)
+
+            
+            
+            
+            
+            
+            
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
