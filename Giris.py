@@ -29,10 +29,12 @@ def options():
         AGA1_RECT=AGA1_TEXT.get_rect(center=(576, 200))
         SCREEN.blit(AGA1_TEXT,AGA1_RECT)
 
-
-
         
-        
+        AGA2_TEXT=get_font(20).render("MERT NUHOGLU-032280058-github.com/xBraveHeart ", True, "White")
+        AGA2_RECT=AGA2_TEXT.get_rect(center=(576, 250))
+        SCREEN.blit(AGA2_TEXT,AGA2_RECT)
+       
+    
         AGA3_TEXT=get_font(20).render("EMIR TUTLU-032280034-github.com/emirtutlu ", True, "White")
         AGA3_RECT=AGA3_TEXT.get_rect(center=(576, 300))
         SCREEN.blit(AGA3_TEXT,AGA3_RECT)     
