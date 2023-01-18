@@ -98,13 +98,13 @@ while True:
     
         vm = sqrt(v[0]*v[0] + v[1]*v[1])
         s0 = topPos # BAŞLANGIÇ POZİYONU
-   
+    
         s = (s0[0] + v0[0]*t + a[0]*t*t/2, s0[1] + v0[1]*t + a[1]*t*t/2) #FİZİK FORMULÜ
         if s[1] >= 436: # YERE VURMA
     
             launched = False
 
- #  EKRAN YAZILARININ AYARLANMASI
+#  EKRAN YAZILARININ AYARLANMASI
 
     font = pygame.font.Font(None, 30)
 
@@ -195,7 +195,7 @@ while True:
         
     keystate = pygame.key.get_pressed()
     
-     # saat yönünün tersine çevirme
+    # saat yönünün tersine çevirme
 
     if keystate[K_LEFT]: 
         ang+=2
@@ -217,11 +217,11 @@ while True:
     if keystate[K_UP]: 
 
         vm+=2
-         # ilk hızı düşür
+        # ilk hızı düşür
 
     if keystate[K_DOWN]:
         vm-=2
 
-      # asıl sahneyi göster 
+        # asıl sahneyi göster 
 
     pygame.display.flip()                  
