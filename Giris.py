@@ -86,7 +86,11 @@ def main_menu():
         QUIT_BUTTON = Button(image=pygame.image.load("resimler/Quit_Rect.png"), pos=(576, 550), 
                             text_input="Çıkış", font=get_font(40), base_color="#d7fcd4", hovering_color="White")
         
-                SCREEN.blit(MENU_TEXT, MENU_RECT)
+        SCREEN.blit(MENU_TEXT, MENU_RECT)
+        
+        for button in [PLAY_BUTTON, OPTIONS_BUTTON, QUIT_BUTTON]:
+            button.changeColor(MENU_MOUSE_POS)
+            button.update(SCREEN)
 
             
             
