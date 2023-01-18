@@ -53,7 +53,8 @@ def options():
         OPTIONS_BACK.changeColor(OPTIONS_MOUSE_POS)
         OPTIONS_BACK.update(SCREEN)
         
-        
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
         
         
         
