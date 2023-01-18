@@ -88,59 +88,59 @@ launched = False
 #ANA OYUN DÖNGÜSÜ
 
 while True:
-  dt = fpsClock.tick(FPS) # dt = t_SON - t_İLK
-  if launched:
-    t = t + dt/250.0 # GÜNCELLENEN ZAMAN 
+    dt = fpsClock.tick(FPS) # dt = t_SON - t_İLK
+    if launched:
+        t = t + dt/250.0 # GÜNCELLENEN ZAMAN 
     #BURADA BULUNAN 250.0 TOPUN HAVADA KALMA SÜRESİNİ ETKİLEMİYOR FPS AYARLARI İLE MERMİNİN AĞIR ÇEKİMDE VEYA HIZLI OLARAK GİDECEĞİNE KARAR VERİYORUZ.
     
-     a = (0.0, 10.0) 
-     v =  (v0[0] + a[0]*t, v0[1] + a[1]*t) # İVME VE HIZ DEĞERLERİNİN TANIMLANMASI 
+        a = (0.0, 10.0) 
+        v =  (v0[0] + a[0]*t, v0[1] + a[1]*t) # İVME VE HIZ DEĞERLERİNİN TANIMLANMASI 
     
-     vm = sqrt(v[0]*v[0] + v[1]*v[1])
-     s0 = topPos # BAŞLANGIÇ POZİYONU
+        vm = sqrt(v[0]*v[0] + v[1]*v[1])
+        s0 = topPos # BAŞLANGIÇ POZİYONU
    
-     s = (s0[0] + v0[0]*t + a[0]*t*t/2, s0[1] + v0[1]*t + a[1]*t*t/2) #FİZİK FORMULÜ
-     if s[1] >= 436: # YERE VURMA
+        s = (s0[0] + v0[0]*t + a[0]*t*t/2, s0[1] + v0[1]*t + a[1]*t*t/2) #FİZİK FORMULÜ
+        if s[1] >= 436: # YERE VURMA
     
-                launched = False
+            launched = False
 
  #  EKRAN YAZILARININ AYARLANMASI
 
-font = pygame.font.Font(None, 30)
+    font = pygame.font.Font(None, 30)
 
-text_ang = font.render("açı = %d" % ang, 1, (10, 10, 10))
+    text_ang = font.render("açı = %d" % ang, 1, (10, 10, 10))
 
-text_ang_pos = (0, 460)
-
-
-text_vm = font.render("hız = %.1f m/s" % vm, 1, (10, 10, 10))
-
-text_vm_pos = (0, 480)
+    text_ang_pos = (0, 460)
 
 
-text_vx = font.render("yatay hız = %.1f m/s" % v[0], 1, (10, 10, 10))
+    text_vm = font.render("hız = %.1f m/s" % vm, 1, (10, 10, 10))
 
-text_vx_pos = (0, 500)
-
-
-text_vy = font.render("dikey hız = %.1f m/s" % v[1], 1, (10, 10, 10))
-
-text_vy_pos = (0, 520)
+    text_vm_pos = (0, 480)
 
 
-text_x = font.render("yatay konum = %.1f m" % s[0], 1, (10, 10, 10))
+    text_vx = font.render("yatay hız = %.1f m/s" % v[0], 1, (10, 10, 10))
 
-text_x_pos = (0, 540)
-
-
-text_y = font.render("dikey konum = %.1f m" % s[1], 1, (10, 10, 10))
-
-text_y_pos = (0, 560)
+    text_vx_pos = (0, 500)
 
 
-text_t = font.render("zaman = %.1f s" % t, 1, (10, 10, 10))
+    text_vy = font.render("dikey hız = %.1f m/s" % v[1], 1, (10, 10, 10))
 
-text_t_pos = (0, 580)
+    text_vy_pos = (0, 520)
+
+
+    text_x = font.render("yatay konum = %.1f m" % s[0], 1, (10, 10, 10))
+
+    text_x_pos = (0, 540)
+
+
+    text_y = font.render("dikey konum = %.1f m" % s[1], 1, (10, 10, 10))
+
+    text_y_pos = (0, 560)
+
+
+    text_t = font.render("zaman = %.1f s" % t, 1, (10, 10, 10))
+
+    text_t_pos = (0, 580)
 
 
 
@@ -150,48 +150,48 @@ text_t_pos = (0, 580)
 
 # YENİ SAHNE KURULUMU 
 
-EKRAN.blit(arkaplanImg, (0,0))
+    EKRAN.blit(arkaplanImg, (0,0))
 
-EKRAN.blit(havanMovImg, havanPos  )
+    EKRAN.blit(havanMovImg, havanPos  )
 
-EKRAN.blit(topImg, s)
+    EKRAN.blit(topImg, s)
 
-EKRAN.blit(yatakImg, yatakPos)
+    EKRAN.blit(yatakImg, yatakPos)
 
-EKRAN.blit(text_t, text_t_pos)
+    EKRAN.blit(text_t, text_t_pos)
 
-EKRAN.blit(text_vx, text_vx_pos)
+    EKRAN.blit(text_vx, text_vx_pos)
 
-EKRAN.blit(text_vy, text_vy_pos)
+    EKRAN.blit(text_vy, text_vy_pos)
 
-EKRAN.blit(text_vm, text_vm_pos)
+    EKRAN.blit(text_vm, text_vm_pos)
 
-EKRAN.blit(text_x, text_x_pos)
+    EKRAN.blit(text_x, text_x_pos)
 
-EKRAN.blit(text_y, text_y_pos)
+    EKRAN.blit(text_y, text_y_pos)
 
-EKRAN.blit(text_ang, text_ang_pos)
+    EKRAN.blit(text_ang, text_ang_pos)
 
 # TUŞ ATAMALARI 
-for event in pygame.event.get():
-    if event.type == QUIT:
-        pygame.quit()
-        sys.exit()
-    elif event.type == KEYDOWN:    
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit()
+            sys.exit()
+        elif event.type == KEYDOWN:    
         # BOŞLUK İLE BAŞLATMA 
-        if event.key == K_SPACE:
+            if event.key == K_SPACE:
             #topun atıldığında çıkarttığı patlama sesi 
-            havansesi = pygame.mixer.Sound("patlama.mp3")
-            havansesi.play()
+                havansesi = pygame.mixer.Sound("patlama.mp3")
+                havansesi.play()
             #Bu sesi bir Türk filmi olan Fetih 1453'ün ses efekt bölümünden aldık.
             
-            topPos = (22,428)
-            s = topPos
-            t = 0
-            launched = True
+                topPos = (22,428)
+                s = topPos
+                t = 0
+                launched = True
             
             # başlangıç hızını ayarlama 
-            v0 = (vm*cos(radians(ang)), -vm*sin(radians(ang)))            
+                v0 = (vm*cos(radians(ang)), -vm*sin(radians(ang)))            
         
     keystate = pygame.key.get_pressed()
     
