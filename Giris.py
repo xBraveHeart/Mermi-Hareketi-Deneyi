@@ -46,7 +46,9 @@ def options():
         
         
         
-        
+        OPTIONS_BACK = Button(image=None, pos=(576, 460), 
+                            text_input="Geri", font=get_font(40), base_color="White", hovering_color="Yellow")
+       
         
         
         
