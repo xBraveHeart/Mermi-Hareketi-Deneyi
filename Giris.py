@@ -33,7 +33,7 @@ def options():
         AGA2_TEXT=get_font(20).render("MERT NUHOGLU-032280058-github.com/xBraveHeart ", True, "White")
         AGA2_RECT=AGA2_TEXT.get_rect(center=(576, 250))
         SCREEN.blit(AGA2_TEXT,AGA2_RECT)
-       
+        
     
         AGA3_TEXT=get_font(20).render("EMIR TUTLU-032280034-github.com/emirtutlu ", True, "White")
         AGA3_RECT=AGA3_TEXT.get_rect(center=(576, 300))
@@ -46,12 +46,12 @@ def options():
         
         
         
-                     
+        
         
         
         OPTIONS_BACK = Button(image=None, pos=(576, 460), 
                             text_input="Geri", font=get_font(40), base_color="White", hovering_color="Yellow")
-       
+        
         
         OPTIONS_BACK.changeColor(OPTIONS_MOUSE_POS)
         OPTIONS_BACK.update(SCREEN)
@@ -66,13 +66,13 @@ def options():
                 
         pygame.display.update()
         
-                     
+
 def main_menu():
     while True:
         SCREEN.blit(BG, (0, 0))
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()        
-              
+        
         MENU_TEXT = get_font(50).render("Mermi Hareketi Deneyi", True, "#035b52")
         MENU_RECT = MENU_TEXT.get_rect(center=(576, 100))        
         
@@ -90,7 +90,7 @@ def main_menu():
             button.update(SCREEN)
 
             
-                      
+            
             
             
         for event in pygame.event.get():
