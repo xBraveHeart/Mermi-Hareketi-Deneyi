@@ -40,6 +40,10 @@ def options():
         SCREEN.blit(AGA3_TEXT,AGA3_RECT)     
         
         
+        AGA4_TEXT=get_font(20).render("SULEYMAN LATİF ÇIFÇI-032280050-github.com/slatifc ", True, "White")
+        AGA4_RECT=AGA4_TEXT.get_rect(center=(576, 350))
+        SCREEN.blit(AGA4_TEXT,AGA4_RECT)
+        
         
         
         
