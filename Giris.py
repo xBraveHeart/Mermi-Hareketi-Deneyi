@@ -21,6 +21,7 @@ def options():
 
         SCREEN.fill("#035b52")
 
+        OPTIONS_TEXT = get_font(40).render("Emegi Geçenler ", True, "White")
 
 
 
